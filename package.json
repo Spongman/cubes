@@ -1,0 +1,20 @@
+{
+	"name": "nodegl",
+	"version": "1.0.0",
+	"main": "index",
+	"license": "MIT",
+	"scripts": {
+		"run": "tsc && node index.js"
+	},
+	"devDependencies": {
+		"@types/node": "^9.6.4",
+		"patch-package": "^5.1.1",
+		"tsc": "^1.20150623.0",
+		"typescript": "^2.8.1"
+	},
+	"dependencies": {
+		"@types/gl-matrix": "^2.4.0",
+		"gl-matrix": "^2.4.0",
+		"wpe-webgl": "^0.0.5"
+	}
+}
